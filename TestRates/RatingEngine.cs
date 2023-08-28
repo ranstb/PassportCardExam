@@ -42,7 +42,7 @@ namespace TestRating
             }
             catch (Exception ex)
             { 
-                Console.WriteLine($"Application failed: {ex.Message}");
+                Console.WriteLine($"Application error: {ex.Message}");
             }
         }
     }
